@@ -136,10 +136,10 @@ const _map_types = {
 }
 
 # Resolution is a power of two + 1
-const MAX_RESOLUTION = 4097
-const MIN_RESOLUTION = 65 # must be higher than largest chunk size
+const MAX_RESOLUTION = 32769
+const MIN_RESOLUTION = 257 # must be higher than largest chunk size
 const DEFAULT_RESOLUTION = 513
-const SUPPORTED_RESOLUTIONS = [65, 129, 257, 513, 1025, 2049, 4097]
+const SUPPORTED_RESOLUTIONS = [257, 513, 1025, 2049, 4097, 8193, 16385, 32769]
 
 const VERTICAL_BOUNDS_CHUNK_SIZE = 16
 # TODO Have undo chunk size to emphasise the fact it's independent
