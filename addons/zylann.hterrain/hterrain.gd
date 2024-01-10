@@ -128,7 +128,7 @@ const _splatmap_shader_params = [
 ]
 
 const MIN_CHUNK_SIZE = 16
-const MAX_CHUNK_SIZE = 64
+const MAX_CHUNK_SIZE = 256
 
 # Same as HTerrainTextureSet.get_texture_type_name, used for shader parameter names.
 # Indexed by HTerrainTextureSet.TYPE_*
